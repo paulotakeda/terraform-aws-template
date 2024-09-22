@@ -1,0 +1,9 @@
+aws_region         = "sa-east-1"
+aws_key_pair_name  = "key-pair-name"
+availability_zones = ["sa-east-1a", "sa-east-1c"]
+public_subnets     = ["10.10.100.0/24", "10.10.101.0/24"]
+private_subnets    = ["10.10.0.0/24", "10.10.1.0/24"]
+app_name           = "node-js-app"
+app_environment    = "production"
+database_name      = "nodejsdatabase"
+database_password  = "database-password"
